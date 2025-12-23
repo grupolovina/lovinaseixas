@@ -11,7 +11,7 @@ html {
 
 body {
   /* background-image: url('./img/fundoseixas.png'); */ /* Remova ou comente a imagem de fundo */
-  background-image: url('./img/fundoseixas.png');
+  background: #003448;
   color: #e1e1f1;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@ body {
   aspect-ratio: 1/1;
   object-fit: cover;
   object-position: top;
-  border: 2px solid #3A3B6E;
+  border: 2px solid #f0f2f6;
 }
 
 a {
@@ -74,7 +74,7 @@ a {
 
 .sosmed i {
   font-size: 1.5rem;
-  color: #3A3B6E;
+  color: #f0f2f6;
 }
 
 .sosmed i:hover {
@@ -100,13 +100,13 @@ ul.links li:not(:last-child) {
 
 .slogan {
   text-align: center;
-  color: #3A3B6E;
+  color: #f0f2f6;
   font-family:'NeueAlteGrotesk-Medium', sans-serif;
 }
 
 .tituloft {
   text-align: center;
-  color: #3A3B6E;
+  color: #f0f2f6;
   font-family:'KGHappySolid', sans-serif;
 }
 
@@ -118,17 +118,17 @@ ul.links li:not(:last-child) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFC537;
+  background-color: #003448;
   gap: 1rem;
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 8px 10px 0 #1b1c36;
-  border: 2px solid #3A3B6E;
+  border: 2px solid #4b7786;
 }
 
 .icone-grande {
   font-size: 2rem;
-  color: #3A3B6E;
+  color: #f0f2f6;
 }
 
 .link-card:hover {
@@ -143,12 +143,12 @@ ul.links li:not(:last-child) {
 .links .link-text {
   text-align: center;
   flex-grow: 1;
-  color: #3A3B6E;
+  color: #f0f2f6;
   font-family:'KGHappySolid', sans-serif;
 }
 
 .link-action {
-  color: #3A3B6E;
+  color: #f0f2f6;
   cursor: pointer;
   padding: 10px;
 }
@@ -159,7 +159,7 @@ ul.links li:not(:last-child) {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  color: #3A3B6E;
+  color: #f0f2f6;
   font-size: 0.75rem;
   font-family:'KGHappySolid', sans-serif;
 }
